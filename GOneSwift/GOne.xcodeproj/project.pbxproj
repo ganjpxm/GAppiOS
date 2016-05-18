@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		31503EA20730C2DE60DB4AA3 /* Pods_GOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26157A33BB268DCBE6E1E127 /* Pods_GOne.framework */; };
 		4B91F1F217C68C2BF6A07EA2 /* Pods_GOneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2897B4CCEE9C97C49EA3B58B /* Pods_GOneTests.framework */; };
+		BC66F5D71CECD0BB002B9807 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC66F5D41CECD0BB002B9807 /* String+Extension.swift */; };
 		BC66FE091CECBDD60046E42A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC66FE081CECBDD60046E42A /* AppDelegate.swift */; };
 		BC66FE0B1CECBDD60046E42A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC66FE0A1CECBDD60046E42A /* ViewController.swift */; };
 		BC66FE0E1CECBDD60046E42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC66FE0C1CECBDD60046E42A /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		3C02E8971CC5AFCAB66E683C /* Pods_GOneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GOneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FD547A0301CDBE193F5673 /* Pods-GOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-GOne/Pods-GOne.release.xcconfig"; sourceTree = "<group>"; };
 		8EF5EBA92160A6D3C482FE52 /* Pods-GOneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GOneTests/Pods-GOneTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC66F5D41CECD0BB002B9807 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		BC66FE051CECBDD60046E42A /* GOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC66FE081CECBDD60046E42A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC66FE0A1CECBDD60046E42A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BC66F5D31CECD0BB002B9807 /* GLib */ = {
+			isa = PBXGroup;
+			children = (
+				BC66F5D41CECD0BB002B9807 /* String+Extension.swift */,
+			);
+			path = GLib;
+			sourceTree = "<group>";
+		};
+		BC66F5D51CECD0BB002B9807 /* Opensource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Opensource;
+			sourceTree = "<group>";
+		};
+		BC66F5D61CECD0BB002B9807 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
 		BC66FDFC1CECBDD60046E42A = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +163,9 @@
 		BC66FE071CECBDD60046E42A /* GOne */ = {
 			isa = PBXGroup;
 			children = (
+				BC66F5D31CECD0BB002B9807 /* GLib */,
+				BC66F5D51CECD0BB002B9807 /* Opensource */,
+				BC66F5D61CECD0BB002B9807 /* Vendor */,
 				BC66FE081CECBDD60046E42A /* AppDelegate.swift */,
 				BC66FE0A1CECBDD60046E42A /* ViewController.swift */,
 				BC66FE0C1CECBDD60046E42A /* Main.storyboard */,
@@ -430,6 +457,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC66F5D71CECD0BB002B9807 /* String+Extension.swift in Sources */,
 				BC66FE0B1CECBDD60046E42A /* ViewController.swift in Sources */,
 				BC66FE111CECBDD60046E42A /* GOne.xcdatamodeld in Sources */,
 				BC66FE091CECBDD60046E42A /* AppDelegate.swift in Sources */,
